@@ -1,1 +1,1 @@
-# algoSelect-api
+# AlgoSelect API
