@@ -155,6 +155,9 @@ def updatePrice():
         return jsonify(result={"algo_details":algos[score.index(max(score))]}), 200
     return jsonify(error={"Error": "404"}), 404
 
+def create_app():
+   return app
+
 if __name__ == '__main__':
     from waitress import serve
     # app.run(debug=True)
